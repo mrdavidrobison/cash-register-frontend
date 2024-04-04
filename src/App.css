@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
 .App-link {
@@ -35,4 +36,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cash-register-image {
+  width: 300px;
+  margin-top: 20px;
+}
+/* Styles for buttons container */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Styles for buttons */
+button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Styles for input field */
+input[type="number"] {
+  width: 300px; /* Increase width */
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+input[type="number"]:focus {
+  border: 3px solid #555;
+}
+
+/* Styles for Add and Subtract buttons */
+button.add, button.subtract {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Styles for Reset button */
+button.reset {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
 }
